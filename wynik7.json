@@ -1,0 +1,8 @@
+C:\Users\dziwi>curl -i -XGET http://localhost:8098/buckets/s14015/keys/mojeKotyToEnterIspacja
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 03 Jul 2021 01:01:14 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

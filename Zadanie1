@@ -1,0 +1,5 @@
+curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'True', 'rasa': 'norweski', 'wagaWkg': 4, 'kolor': rudy}" http://localhost:8098/buckets/s14015/keys/norweski
+curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'Fals', 'rasa': 'bolonczyk', 'wagaWkg': 10, 'kolor': bialy}" http://localhost:8098/buckets/s14015/keys/bolonczyk
+curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'True', 'rasa': 'tonkijski', 'wagaWkg': 1, 'kolor': szary}" http://localhost:8098/buckets/s14015/keys/tonkijski
+curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'True', 'rasa': 'abisynski', 'wagaWkg': 5, 'kolor': trikolor}" http://localhost:8098/buckets/s14015/keys/abisynski
+curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'Fals', 'rasa': 'spaniel', 'wagaWkg': 20, 'kolor': biszkoptowy}" http://localhost:8098/buckets/s14015/keys/spaniel

@@ -1,0 +1,43 @@
+C:\Users\dziwi>curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'True', 'rasa': 'norweski', 'wagaWkg': 4, 'kolor': rudy}" http://localhost:8098/buckets/s14015/keys/norweski
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 03 Jul 2021 00:35:23 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\dziwi>curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'Fals', 'rasa': 'bolonczyk', 'wagaWkg': 10, 'kolor': bialy}" http://localhost:8098/buckets/s14015/keys/bolonczyk
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 03 Jul 2021 00:35:23 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\dziwi>curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'True', 'rasa': 'tonkijski', 'wagaWkg': 1, 'kolor': szary}" http://localhost:8098/buckets/s14015/keys/tonkijski
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 03 Jul 2021 00:35:23 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\dziwi>curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'True', 'rasa': 'abisynski', 'wagaWkg': 5, 'kolor': trikolor}" http://localhost:8098/buckets/s14015/keys/abisynski
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 03 Jul 2021 00:35:24 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\dziwi>curl -i -XPUT -H "Content-Type: application/json" -d "{'czyToKot': 'Fals', 'rasa': 'spaniel', 'wagaWkg': 20, 'kolor': biszkoptowy}" http://localhost:8098/buckets/s14015/keys/spaniel
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 03 Jul 2021 00:35:25 GMT
+Content-Type: application/json
+Content-Length: 0

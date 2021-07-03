@@ -1,0 +1,13 @@
+C:\Users\dziwi>curl -i -XGET http://localhost:8098/buckets/s14015/keys/HINMuPkRkaOdgErIhlp3gS84sfQ
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVtYkvEyHCCUy5rEyHDYOucWXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s14015>; rel="up"
+Last-Modified: Sat, 03 Jul 2021 01:05:07 GMT
+ETag: "2fyMyM9egTAiiaOS5INiFu"
+Date: Sat, 03 Jul 2021 01:07:45 GMT
+Content-Type: application/json
+Content-Length: 31
+
+{'pizzaCzyKebab': 'tylkoPizza'}

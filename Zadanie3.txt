@@ -1,0 +1,1 @@
+curl -i -XPUT -H  "Content-Type: application/json" -d "{'czyToKot': 'Fals', 'rasa': 'bolonczyk', 'wagaWkg': 10, 'kolor': bialy, 'osobowosc': wredny}" http://localhost:8098/buckets/s14015/keys/bolonczyk
